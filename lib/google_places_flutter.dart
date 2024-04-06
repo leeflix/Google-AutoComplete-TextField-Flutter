@@ -167,7 +167,7 @@ class _GooglePlaceAutoCompleteTextFieldState
       Overlay.of(context)!.insert(this._overlayEntry!);
     } catch (e) {
       var errorHandler = ErrorHandler.internal().handleError(e);
-      _showSnackBar("${errorHandler.message}");
+      // _showSnackBar("${errorHandler.message}");
     }
   }
 
